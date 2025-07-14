@@ -1,0 +1,108 @@
+:root {
+  --rosepine-base: #191724;
+  --rosepine-surface: #1f1d2e;
+  --rosepine-overlay: #26233a;
+  --rosepine-muted: #6e6a86;
+  --rosepine-subtle: #908caa;
+  --rosepine-text: #e0def4;
+  --rosepine-love: #eb6f92;
+  --rosepine-gold: #f6c177;
+  --rosepine-rose: #ebbcba;
+  --rosepine-pine: #31748f;
+  --rosepine-foam: #9ccfd8;
+  --rosepine-iris: #c4a7e7;
+  --rosepine-low: #21202e;
+  --rosepine-med: #403d52;
+  --rosepine-high: #524f67;
+}
+
+body {
+  background-color: var(--rosepine-base);
+  color: var(--rosepine-text);
+  font-family: monospace;
+  font-size: 16px;
+  text-align: left;
+  margin: 25px auto;
+  max-width: 750px;
+  line-height: 1.5;
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: var(--rosepine-love);
+}
+
+h2 {
+  text-align: left;
+  font-size: 28px;
+  color: var(--rosepine-gold);
+}
+
+h3 {
+  text-align: left;
+  font-size: 24px;
+  color: var(--rosepine-rose);
+}
+
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: var(--rosepine-pine);
+  font-size: 20px;
+}
+
+p {
+  background-color: var(--rosepine-surface);
+  border: 5px solid var(--rosepine-overlay);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 375px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  color: var(--rosepine-foam);
+  text-decoration: none;
+}
+
+.title {
+  color: var(--rosepine-love);
+}
+
+.caption {
+  background-color: var(--rosepine-surface);
+  border: 5px solid var(--rosepine-overlay);
+  text-align: center;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+}
+
+.card-content {
+  margin: 16px;
+  padding: 12px;
+  background-color: var(--rosepine-surface);
+  border: 5px solid var(--rosepine-overlay);
+  flex: 1;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.contact-list {
+  list-style-type: square;
+  padding: 0;
+  margin: 20px;
+  background-color: var(--rosepine-surface);
+  border: 5px solid var(--rosepine-overlay);
+}
