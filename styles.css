@@ -62,7 +62,7 @@ p {
 }
 
 img {
-  max-width: 750px;
+  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -105,4 +105,53 @@ a {
   margin: 20px;
   background-color: var(--rosepine-surface);
   border: 5px solid var(--rosepine-overlay);
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+    margin: 12px;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 16px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card-content {
+    margin: 8px 0;
+  }
+
+  .caption {
+    font-size: 12px;
+  }
 }
